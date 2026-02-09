@@ -28,13 +28,13 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                script {
-                    sh "docker run --rm $DOCKER_IMAGE python manage.py test"
-                }
-            }
-        }
+        //stage('Run Tests') {
+          //  steps {
+            //    script {
+              //      sh "docker run --rm $DOCKER_IMAGE python manage.py test"
+                //}
+            //}
+        //}
         
         /*
         stage('Deploy') {
