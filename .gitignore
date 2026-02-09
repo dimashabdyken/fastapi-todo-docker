@@ -2,9 +2,13 @@
 *.pyc
 __pycache__/
 venv/
+.venv/
 .env
+*.egg-info/
+dist/
+build/
 
-# Django
+# FastAPI
 db.sqlite3
 /staticfiles/
 /media/
@@ -15,7 +19,8 @@ db.sqlite3
 *.log
 !docker-compose.yml
 
-.idea/ 
+# IDE
+.idea/
 .vscode/
 .DS_Store
 
@@ -23,4 +28,4 @@ db.sqlite3
 .terraform/
 *.tfstate
 *.tfstate.backup
-.terraform.lock.hclgminikube-linux-amd64
+.terraform.lock.hcl
