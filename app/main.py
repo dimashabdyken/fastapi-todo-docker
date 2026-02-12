@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 
-from . import crud, database, models, schemas
+from . import crud, database, schemas, models
 
 models.Base.metadata.create_all(bind=database.engine)
 
