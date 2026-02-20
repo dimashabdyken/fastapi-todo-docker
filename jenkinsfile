@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // образ
-        DOCKER_IMAGE = 'technobladedocker/django-todo:v1' 
+        DOCKER_IMAGE = 'technobladedocker/fastapi-todo:v1' 
         // ID секрета в Jenkins
         DOCKER_CREDS = 'docker-hub-creds'
         // Имя деплоймента в Kubernetes 

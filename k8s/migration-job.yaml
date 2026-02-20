@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
         - name: alembic
-          image: technobladedocker/django-todo:v1
+          image: technobladedocker/fastapi-todo:v1
           imagePullPolicy: Always
           # Главная команда для запуска миграйи alembic
           command: ["alembic", "upgrade", "head"]
